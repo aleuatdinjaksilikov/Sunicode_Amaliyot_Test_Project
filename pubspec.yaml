@@ -1,0 +1,31 @@
+name: sunicode_amaliyot
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+    - family : WorkSans
+      fonts:
+        - asset: fonts/work_sans_regular.ttf
+          weight: 400
+        - asset: fonts/work_sans_semiBold.ttf
+          weight: 600
+
